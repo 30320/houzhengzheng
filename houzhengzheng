@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我是迪迦</title>
+    <link rel="stylesheet" href="D:\桌面/css/index.css">
+</head>
+
+<body>
+    <section>
+        <img id="bg" src="D:\桌面/assets/bg.jpg" alt="">
+        <img id="moon" src="D:\桌面/assets/moon.png" alt="">
+        <img id="mountain" src="D:\桌面/assets/mountain.png" alt="">
+        <img id="road" src="D:\桌面/assets/road.png" alt="">
+        <h2 id="text">世界和平</h2>
+    </section>
+    <script>
+        let bg = document.getElementById('bg');
+        let moon = document.getElementById('moon');
+        let mountain = document.getElementById('mountain');
+        let road = document.getElementById('road');
+        let text = document.getElementById('text');
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY
+            bg.style.top = value * 0.5 + 'px'
+            moon.style.left = -value * 0.5 + 'px'
+            mountain.style.top = -value * 0.15 + 'px'
+            road.style.top = value * 0.15 + 'px'
+            text.style.top = value * 1 + 'px'
+        })
+    </script>
+	<h1 style="text-align:center"><font color="white" size="6">
+			侯政的个人简介</font></h1> 
+			<br>
+			<br>
+			<article>
+			<h2><font color="white" size="6">这 就 是 我：</font></h2>
+			<img src="D:\桌面/哈哈哈哈哈.gif"  />
+			<br>
+			<br>
+			<p style="text-indent:2em" ><font color="white">我叫<a href="https://www.baidu.com/link?url=BeOtZd0pwj5nMpoUf7xj-ERUZTKaE2OWn2ILkzyKnPU
+			3g8vroPmRMFV16bzKHGnEVi0k_RRR2zcVyermUtt89LCJGexXMTFWC3FvYm6x4mtXMAS9K3_B6WG3tO2B3eHE0jYTZmL
+			bmsn1UiAjD0e8FTS0TWteP89b8K1tJYPUKxojSBm2LKCkkzJCiVHr6egJVdWIHGIEnCg65e1g7Dcd6YFjusdcqNGuLfrlUc
+			9RfYZozbOVCYZaxkcuoqeeM0wS&wd=&eqid=ff5b253e0004e9e400000004607edb75">迪迦</a>，曾是地球人，后随父母移居M-78星云，成为一名光荣的奥特曼。
+					现就读于<font color="pink" size="5"><a href="https://www.bilibili.com/bangumi/play/ss38384/?from=search&seid=5964785983158795358">
+					南京财经大学</a></font>国际经贸学院消消乐专业2001，辅修电子商务专业，学号是12345678910，电话是11111111111,
+					 身份证号是XXXXXXXXXXXXXXXXXX,平时爱好有打怪兽等等……曾在地球参与大大小小数十次战役，在地球人心中成为光的化身……</font></p>
+					</article>
+					
+			<br/>
+			<br/>
+				<table border="2" width="800"div style="margin:0 auto" >
+				<caption ><font color="pink" size="8">能 力</font></caption>
+				<br>
+				<br>
+					<tr>
+		<th>变身能力</th>
+				<th>飞行速度</th>
+					<th>奔跑速度</th>
+						<th>水中速度</th>
+					<th>潜地速度</th>
+				<th>跳跃力</th>
+		<th>握力</th>
+					</tr>
+							<tr>
+							<th>复合型</th>
+								<th>5马赫</th>
+						<th>1.5马赫</th>
+							<th>1.5马赫</th>
+						<th>1.5马赫</th>
+							<th>800米</th>
+					<th>50000吨</th>
+					</tr>
+					<tr>
+						<th>空中型</th>
+				<th>7马赫</th>
+			<th>2马赫</th>
+				<th>1马赫</th>
+						<th>1马赫</th>
+							<th>1000米</th>
+							<th>30000吨</th>
+					</tr>
+					<tr>
+				<th>强力型</th>
+								<th>3马赫</th>
+							<th>1马赫</th>
+					<th>1马赫</th>
+					<th>1马赫</th>
+						<th>500米</th>
+					<th>70000吨</th>
+			</tr>
+</body>
+
+</html>
